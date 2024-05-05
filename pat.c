@@ -3,13 +3,13 @@
 
 int main(){
 
-printf("Right Half Piramid is");
+printf("Right Half Piramid is\n");
 
 printf("*\n");
 printf("**\n");
 printf("***\n");
 printf("****\n");
-printf("******S\n");
+printf("******\n");
 
 
 

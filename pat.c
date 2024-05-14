@@ -23,6 +23,13 @@ printf("*\n");
 
 
 
+printf("Right Half Piramid is\n");
+
+printf("        *\n");
+printf("      * *\n");
+printf("    * * *\n");
+printf("  * * * *\n");
+printf("* * * * * *\n");
 
 
 

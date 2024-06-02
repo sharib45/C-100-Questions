@@ -50,13 +50,21 @@ break;
 default:
 
 invalid=1;
-printf("please enter right key\n");
+
 
 break;
 }
 
 if(invalid==0){
 printf("result is %f",res);
+}
+
+else{
+
+printf("please enter right key \n");
+
+printf("pleease enter right key");
+
 }
 
 }

@@ -22,9 +22,6 @@ copy = copy/10;
 
 
 
-
-
-
 }
 
 printf("the revrs of %d is %d",num,revers);

@@ -15,29 +15,23 @@ printf("pleae enter second number :");
 
 scanf("%d",&num2);
 
-int min = num1>num2 ? num1 :num2;
-
-printf("%d",min);
-
-int max = num1*num2;
+int min = num1<num2 ? num1 :num2;
 
 
-for(int i = min;i <=max;i++){
 
-if(i%num1==0 && i% num2==0){
+for(int i = min; i>=1;i--){
 
+if( num1 %i==0 && num2%i==0){
 
-printf("Lcm of %d and %d is %d",num1,num2,i);
+printf("%d",i);
 
 break;
-
 }
 
 
 
 }
 
-return 0;
 
 
 }
